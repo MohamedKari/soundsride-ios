@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD16536D25CBFBE600B8E145 /* ServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16536C25CBFBE600B8E145 /* ServiceView.swift */; };
+		CD5B208E25C5B3450085F6FF /* (null) in Sources */ = {isa = PBXBuildFile; };
+		CD5B20B125C638FC0085F6FF /* (null) in Resources */ = {isa = PBXBuildFile; };
+		CD83F08625B89746004E9CDE /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD83F08525B89746004E9CDE /* ViewRouter.swift */; };
+		CD83F0A425B8DD61004E9CDE /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD83F0A325B8DD61004E9CDE /* Localization.swift */; };
+		CD93420D2ACB873700DE7598 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93420C2ACB873700DE7598 /* Utils.swift */; };
+		CD97642025C6DBF8003FE432 /* LocalizationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97641F25C6DBF8003FE432 /* LocalizationUtils.swift */; };
+		CDA1869D24FFB4FD009A8C6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1869C24FFB4FD009A8C6F /* AppDelegate.swift */; };
+		CDA1869F24FFB4FD009A8C6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1869E24FFB4FD009A8C6F /* SceneDelegate.swift */; };
+		CDA186A124FFB4FD009A8C6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA186A024FFB4FD009A8C6F /* ContentView.swift */; };
+		CDA186A324FFB4FE009A8C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA186A224FFB4FE009A8C6F /* Assets.xcassets */; };
+		CDA186A624FFB4FE009A8C6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA186A524FFB4FE009A8C6F /* Preview Assets.xcassets */; };
+		CDA186A924FFB4FE009A8C6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA186A724FFB4FE009A8C6F /* LaunchScreen.storyboard */; };
+		CDA186B424FFB4FF009A8C6F /* soundsrideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA186B324FFB4FF009A8C6F /* soundsrideTests.swift */; };
+		CDA186BF24FFB4FF009A8C6F /* soundsrideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA186BE24FFB4FF009A8C6F /* soundsrideUITests.swift */; };
+		CDA47D2725CC2188000D6BBF /* soundsride_service.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA47D2525CC2188000D6BBF /* soundsride_service.grpc.swift */; };
+		CDA47D2825CC2188000D6BBF /* soundsride_service.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA47D2625CC2188000D6BBF /* soundsride_service.pb.swift */; };
+		CDFCC84B25CA15E100EB33D5 /* GRPC in Frameworks */ = {isa = PBXBuildFile; productRef = CDFCC84A25CA15E100EB33D5 /* GRPC */; };
+		CDFCC84D25CA15E100EB33D5 /* CGRPCZlib in Frameworks */ = {isa = PBXBuildFile; productRef = CDFCC84C25CA15E100EB33D5 /* CGRPCZlib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDA186B024FFB4FF009A8C6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA1869124FFB4FD009A8C6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA1869824FFB4FD009A8C6F;
+			remoteInfo = soundsride;
+		};
+		CDA186BB24FFB4FF009A8C6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA1869124FFB4FD009A8C6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA1869824FFB4FD009A8C6F;
+			remoteInfo = soundsride;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD16536C25CBFBE600B8E145 /* ServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView.swift; sourceTree = "<group>"; };
+		CD3EBDF025EE3B00004939B3 /* sued-labels3.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "sued-labels3.gpx"; path = "data/sued-labels3.gpx"; sourceTree = "<group>"; };
+		CD52750925EB93620000287F /* nord-labels2.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "nord-labels2.gpx"; path = "data/nord-labels2.gpx"; sourceTree = "<group>"; };
+		CD83F08525B89746004E9CDE /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		CD83F0A325B8DD61004E9CDE /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		CD93420C2ACB873700DE7598 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = utils/Utils.swift; sourceTree = "<group>"; };
+		CD97641F25C6DBF8003FE432 /* LocalizationUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationUtils.swift; sourceTree = "<group>"; };
+		CDA1869924FFB4FD009A8C6F /* soundsride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soundsride.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA1869C24FFB4FD009A8C6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDA1869E24FFB4FD009A8C6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDA186A024FFB4FD009A8C6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDA186A224FFB4FE009A8C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDA186A524FFB4FE009A8C6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDA186A824FFB4FE009A8C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDA186AA24FFB4FE009A8C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA186AF24FFB4FF009A8C6F /* soundsrideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soundsrideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA186B324FFB4FF009A8C6F /* soundsrideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundsrideTests.swift; sourceTree = "<group>"; };
+		CDA186B524FFB4FF009A8C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA186BA24FFB4FF009A8C6F /* soundsrideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soundsrideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA186BE24FFB4FF009A8C6F /* soundsrideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundsrideUITests.swift; sourceTree = "<group>"; };
+		CDA186C024FFB4FF009A8C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA47D1125CC17F3000D6BBF /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		CDA47D2525CC2188000D6BBF /* soundsride_service.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = soundsride_service.grpc.swift; sourceTree = "<group>"; };
+		CDA47D2625CC2188000D6BBF /* soundsride_service.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = soundsride_service.pb.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDA1869624FFB4FD009A8C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFCC84B25CA15E100EB33D5 /* GRPC in Frameworks */,
+				CDFCC84D25CA15E100EB33D5 /* CGRPCZlib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA186AC24FFB4FF009A8C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA186B724FFB4FF009A8C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD7CB94A25CACAB7005704E5 /* localization */ = {
+			isa = PBXGroup;
+			children = (
+				CD97641F25C6DBF8003FE432 /* LocalizationUtils.swift */,
+				CD83F0A325B8DD61004E9CDE /* Localization.swift */,
+			);
+			path = localization;
+			sourceTree = "<group>";
+		};
+		CDA1869024FFB4FD009A8C6F = {
+			isa = PBXGroup;
+			children = (
+				CD3EBDF025EE3B00004939B3 /* sued-labels3.gpx */,
+				CD52750925EB93620000287F /* nord-labels2.gpx */,
+				CDA47D1125CC17F3000D6BBF /* Makefile */,
+				CDA1869B24FFB4FD009A8C6F /* soundsride */,
+				CDA186B224FFB4FF009A8C6F /* soundsrideTests */,
+				CDA186BD24FFB4FF009A8C6F /* soundsrideUITests */,
+				CDA1869A24FFB4FD009A8C6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDA1869A24FFB4FD009A8C6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1869924FFB4FD009A8C6F /* soundsride.app */,
+				CDA186AF24FFB4FF009A8C6F /* soundsrideTests.xctest */,
+				CDA186BA24FFB4FF009A8C6F /* soundsrideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDA1869B24FFB4FD009A8C6F /* soundsride */ = {
+			isa = PBXGroup;
+			children = (
+				CD93420C2ACB873700DE7598 /* Utils.swift */,
+				CDB3731D25CD7F1200A48F79 /* resources */,
+				CDA47D1A25CC1E60000D6BBF /* grpc */,
+				CD7CB94A25CACAB7005704E5 /* localization */,
+				CDA1869E24FFB4FD009A8C6F /* SceneDelegate.swift */,
+				CDA1869C24FFB4FD009A8C6F /* AppDelegate.swift */,
+				CDA186A024FFB4FD009A8C6F /* ContentView.swift */,
+				CD16536C25CBFBE600B8E145 /* ServiceView.swift */,
+				CDA186A224FFB4FE009A8C6F /* Assets.xcassets */,
+				CDA186A724FFB4FE009A8C6F /* LaunchScreen.storyboard */,
+				CDA186AA24FFB4FE009A8C6F /* Info.plist */,
+				CDA186A424FFB4FE009A8C6F /* Preview Content */,
+				CD83F08525B89746004E9CDE /* ViewRouter.swift */,
+			);
+			path = soundsride;
+			sourceTree = "<group>";
+		};
+		CDA186A424FFB4FE009A8C6F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDA186A524FFB4FE009A8C6F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDA186B224FFB4FF009A8C6F /* soundsrideTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA186B324FFB4FF009A8C6F /* soundsrideTests.swift */,
+				CDA186B524FFB4FF009A8C6F /* Info.plist */,
+			);
+			path = soundsrideTests;
+			sourceTree = "<group>";
+		};
+		CDA186BD24FFB4FF009A8C6F /* soundsrideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA186BE24FFB4FF009A8C6F /* soundsrideUITests.swift */,
+				CDA186C024FFB4FF009A8C6F /* Info.plist */,
+			);
+			path = soundsrideUITests;
+			sourceTree = "<group>";
+		};
+		CDA47D1A25CC1E60000D6BBF /* grpc */ = {
+			isa = PBXGroup;
+			children = (
+				CDA47D2525CC2188000D6BBF /* soundsride_service.grpc.swift */,
+				CDA47D2625CC2188000D6BBF /* soundsride_service.pb.swift */,
+			);
+			path = grpc;
+			sourceTree = "<group>";
+		};
+		CDB3731D25CD7F1200A48F79 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDA1869824FFB4FD009A8C6F /* soundsride */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA186C324FFB4FF009A8C6F /* Build configuration list for PBXNativeTarget "soundsride" */;
+			buildPhases = (
+				CDA1869524FFB4FD009A8C6F /* Sources */,
+				CDA1869624FFB4FD009A8C6F /* Frameworks */,
+				CDA1869724FFB4FD009A8C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = soundsride;
+			packageProductDependencies = (
+				CDFCC84A25CA15E100EB33D5 /* GRPC */,
+				CDFCC84C25CA15E100EB33D5 /* CGRPCZlib */,
+			);
+			productName = soundsride;
+			productReference = CDA1869924FFB4FD009A8C6F /* soundsride.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDA186AE24FFB4FF009A8C6F /* soundsrideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA186C624FFB4FF009A8C6F /* Build configuration list for PBXNativeTarget "soundsrideTests" */;
+			buildPhases = (
+				CDA186AB24FFB4FF009A8C6F /* Sources */,
+				CDA186AC24FFB4FF009A8C6F /* Frameworks */,
+				CDA186AD24FFB4FF009A8C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA186B124FFB4FF009A8C6F /* PBXTargetDependency */,
+			);
+			name = soundsrideTests;
+			productName = soundsrideTests;
+			productReference = CDA186AF24FFB4FF009A8C6F /* soundsrideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDA186B924FFB4FF009A8C6F /* soundsrideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA186C924FFB4FF009A8C6F /* Build configuration list for PBXNativeTarget "soundsrideUITests" */;
+			buildPhases = (
+				CDA186B624FFB4FF009A8C6F /* Sources */,
+				CDA186B724FFB4FF009A8C6F /* Frameworks */,
+				CDA186B824FFB4FF009A8C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA186BC24FFB4FF009A8C6F /* PBXTargetDependency */,
+			);
+			name = soundsrideUITests;
+			productName = soundsrideUITests;
+			productReference = CDA186BA24FFB4FF009A8C6F /* soundsrideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDA1869124FFB4FD009A8C6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = "Mohamed Kari";
+				TargetAttributes = {
+					CDA1869824FFB4FD009A8C6F = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					CDA186AE24FFB4FF009A8C6F = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = CDA1869824FFB4FD009A8C6F;
+					};
+					CDA186B924FFB4FF009A8C6F = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = CDA1869824FFB4FD009A8C6F;
+					};
+				};
+			};
+			buildConfigurationList = CDA1869424FFB4FD009A8C6F /* Build configuration list for PBXProject "soundsride" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDA1869024FFB4FD009A8C6F;
+			packageReferences = (
+				CDFCC84925CA15E100EB33D5 /* XCRemoteSwiftPackageReference "grpc-swift" */,
+			);
+			productRefGroup = CDA1869A24FFB4FD009A8C6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDA1869824FFB4FD009A8C6F /* soundsride */,
+				CDA186AE24FFB4FF009A8C6F /* soundsrideTests */,
+				CDA186B924FFB4FF009A8C6F /* soundsrideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDA1869724FFB4FD009A8C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA186A924FFB4FE009A8C6F /* LaunchScreen.storyboard in Resources */,
+				CD5B20B125C638FC0085F6FF /* (null) in Resources */,
+				CDA186A624FFB4FE009A8C6F /* Preview Assets.xcassets in Resources */,
+				CDA186A324FFB4FE009A8C6F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA186AD24FFB4FF009A8C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA186B824FFB4FF009A8C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDA1869524FFB4FD009A8C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD16536D25CBFBE600B8E145 /* ServiceView.swift in Sources */,
+				CDA1869D24FFB4FD009A8C6F /* AppDelegate.swift in Sources */,
+				CDA47D2825CC2188000D6BBF /* soundsride_service.pb.swift in Sources */,
+				CDA47D2725CC2188000D6BBF /* soundsride_service.grpc.swift in Sources */,
+				CD5B208E25C5B3450085F6FF /* (null) in Sources */,
+				CDA1869F24FFB4FD009A8C6F /* SceneDelegate.swift in Sources */,
+				CD83F0A425B8DD61004E9CDE /* Localization.swift in Sources */,
+				CD93420D2ACB873700DE7598 /* Utils.swift in Sources */,
+				CD83F08625B89746004E9CDE /* ViewRouter.swift in Sources */,
+				CDA186A124FFB4FD009A8C6F /* ContentView.swift in Sources */,
+				CD97642025C6DBF8003FE432 /* LocalizationUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA186AB24FFB4FF009A8C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA186B424FFB4FF009A8C6F /* soundsrideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA186B624FFB4FF009A8C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA186BF24FFB4FF009A8C6F /* soundsrideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDA186B124FFB4FF009A8C6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA1869824FFB4FD009A8C6F /* soundsride */;
+			targetProxy = CDA186B024FFB4FF009A8C6F /* PBXContainerItemProxy */;
+		};
+		CDA186BC24FFB4FF009A8C6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA1869824FFB4FD009A8C6F /* soundsride */;
+			targetProxy = CDA186BB24FFB4FF009A8C6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDA186A724FFB4FE009A8C6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA186A824FFB4FE009A8C6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDA186C124FFB4FF009A8C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDA186C224FFB4FF009A8C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDA186C424FFB4FF009A8C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"soundsride/Preview Content\"";
+				DEVELOPMENT_TEAM = T6U3X26LQ8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = soundsride/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.mkari.soundsride-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDA186C524FFB4FF009A8C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"soundsride/Preview Content\"";
+				DEVELOPMENT_TEAM = T6U3X26LQ8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = soundsride/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.mkari.soundsride-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDA186C724FFB4FF009A8C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6U3X26LQ8;
+				INFOPLIST_FILE = soundsrideTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.mkari.soundsrideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soundsride.app/soundsride";
+			};
+			name = Debug;
+		};
+		CDA186C824FFB4FF009A8C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6U3X26LQ8;
+				INFOPLIST_FILE = soundsrideTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.mkari.soundsrideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soundsride.app/soundsride";
+			};
+			name = Release;
+		};
+		CDA186CA24FFB4FF009A8C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6U3X26LQ8;
+				INFOPLIST_FILE = soundsrideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.mkari.soundsrideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = soundsride;
+			};
+			name = Debug;
+		};
+		CDA186CB24FFB4FF009A8C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6U3X26LQ8;
+				INFOPLIST_FILE = soundsrideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.mkari.soundsrideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = soundsride;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDA1869424FFB4FD009A8C6F /* Build configuration list for PBXProject "soundsride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA186C124FFB4FF009A8C6F /* Debug */,
+				CDA186C224FFB4FF009A8C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA186C324FFB4FF009A8C6F /* Build configuration list for PBXNativeTarget "soundsride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA186C424FFB4FF009A8C6F /* Debug */,
+				CDA186C524FFB4FF009A8C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA186C624FFB4FF009A8C6F /* Build configuration list for PBXNativeTarget "soundsrideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA186C724FFB4FF009A8C6F /* Debug */,
+				CDA186C824FFB4FF009A8C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA186C924FFB4FF009A8C6F /* Build configuration list for PBXNativeTarget "soundsrideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA186CA24FFB4FF009A8C6F /* Debug */,
+				CDA186CB24FFB4FF009A8C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CDFCC84925CA15E100EB33D5 /* XCRemoteSwiftPackageReference "grpc-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/grpc/grpc-swift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CDFCC84A25CA15E100EB33D5 /* GRPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFCC84925CA15E100EB33D5 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = GRPC;
+		};
+		CDFCC84C25CA15E100EB33D5 /* CGRPCZlib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFCC84925CA15E100EB33D5 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = CGRPCZlib;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CDA1869124FFB4FD009A8C6F /* Project object */;
+}
